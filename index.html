@@ -59,13 +59,41 @@
       </div>
     </div>
   </header>
-  <section class="shorten__it">
-    <form action="">
-      <input type="text" placeholder="Shorten a link here...">
-      <button>Shorten It!</button>
-    </form>
-  </section>
+  
   <main class="main">
+    <section class="shorten__it">
+      <form action="" class="form error">
+        <div class="form_container">
+          <input type="text" placeholder="Shorten a link here...">
+          <button class="short_url">Shorten It!</button>
+        </div>
+        <span class="message">Please add a link</span>
+      </form>
+      <div class="result_container">
+        <div class="result">
+          <p class="the_url">
+            https://www.youtube.com/watch?v=7BYdS3go6qc
+          </p>
+          <div class="the_shorten_url">
+            <p class="url_shorten">
+              https://rel.ink/7BYdS3
+            </p>
+            <button class="copy_btn">Copy</button>
+          </div>
+        </div>
+        <div class="result">
+          <p class="the_url">
+            https://www.youtube.com/watch?v=7BYdS3go6qc
+          </p>
+          <div class="the_shorten_url">
+            <p class="url_shorten">
+              https://rel.ink/7BYdS3
+            </p>
+            <button class="copied_btn">Copied</button>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="statistics">
       <div class="__heading">
         <h2>Advanced Statistics</h2>
@@ -111,11 +139,20 @@
             </div>
           </div>
         </div>
+        <div class="cards_line"></div>
       </div>
     </section>
-    <section class="boost__links"></section>
+    <section class="boost__links">
+      <h2>Boost your links today</h2>
+      <button>Get Started</button>
+    </section>
   </main>
-  <footer></footer>
+  <!-- End Of Main -->
+  <footer>
+    <div class="footer_container">
+      
+    </div>
+  </footer>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Michael L Bangura</a>.
