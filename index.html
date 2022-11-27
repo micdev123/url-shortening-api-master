@@ -8,7 +8,7 @@
   
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
   <link rel="stylesheet" href="./src/style.css">
-  <link rel="stylesheet" href="https://fontawesome.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <!-- <style>
@@ -38,6 +38,21 @@
           <li class="sign__up">Sign Up</li>
         </ul>
       </nav>
+      <div class="mobile_nav">
+        <div class="mobile_nav_container">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="">
+          </div>
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <div class="mobile_nav_links">
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Resources</li>
+          <li>Login</li>
+          <li class="sign__up">Sign Up</li>
+        </div>
+      </div>
     </div>
 
     <!-- Header Body -->
@@ -72,7 +87,7 @@
       <div class="result_container">
         <div class="result">
           <p class="the_url">
-            https://www.youtube.com/watch?v=7BYdS3go6qc
+            https://www.youtube.com
           </p>
           <div class="the_shorten_url">
             <p class="url_shorten">
@@ -83,13 +98,13 @@
         </div>
         <div class="result">
           <p class="the_url">
-            https://www.youtube.com/watch?v=7BYdS3go6qc
+            https://www.youtube.com
           </p>
           <div class="the_shorten_url">
             <p class="url_shorten">
               https://rel.ink/7BYdS3
             </p>
-            <button class="copied_btn">Copied</button>
+            <button class="copied_btn">Copied!</button>
           </div>
         </div>
       </div>
@@ -148,9 +163,59 @@
     </section>
   </main>
   <!-- End Of Main -->
-  <footer>
+  <footer class="footer">
     <div class="footer_container">
-      
+      <div class="footer_logo">
+        <h2>Shortly</h2>
+      </div>
+      <div class="footer_navs">
+        <!-- Features -->
+        <div class="footer_nav">
+          <h2>Features</h2>
+          <ul>
+            <li><a href="#">Link Shortening</a></li>
+            <li><a href="#">Branded Links</a></li>
+            <li><a href="#">Analytics</a></li>
+          </ul>
+        </div>
+        <!-- Resources -->
+        <div class="footer_nav">
+          <h2>Resources</h2>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <!-- Company -->
+        <div class="footer_nav">
+          <h2>Company</h2>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social_links">
+          <a href="https://github.com/micdev123" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-git-alt"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/michael-l-bangura-2a52a724a/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a href="https://twitter.com/Mic__Dev" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+
+          <a href=" https://www.instagram.com/mic__dev/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+         
+        </div>
+      </div>
     </div>
   </footer>
   <!-- <div class="attribution">
